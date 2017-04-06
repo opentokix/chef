@@ -34,18 +34,18 @@ default[:users][:default][:password_hash] = "*"
 default[:users][:default][:groups] = ["sudoers"]
 default[:users][:default][:ssh_keys] = ["ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZn/cjD81zXVGFkVABhAJyLmeB+1XjuAp9ueIoRzg60OCnahU4CqzVgd7t3+9paBFlFlcCE28QDTyO5rEAMUyMDVn09hVEgkbmh4ls3Yhn2F+zXZMGrQJ8QPkTbQQnxoZ6rTEzAYCJGhWaTkLKrTt0deRbdpe/1lIStaOtzq7XV0oM9P8lRT+p87xCTUQHNCg7zFfCWMEFE00pGyYbO0pO4ytLKVW5BFICEJQJyc8Yw4VbdmtNmRuvzv2CkhTenlgCy9dYaGe2SsEtpngjicdgJt/gyiENcJzBeWbtWAR8v+0slifeROEqWWog6zHEClwx2vH9j8wVFtp4SDct3Inb peter@polyhedra"]
 
-default[:users:][:add] = {
+default[:users][:add] = {
     "peter" => {}
 }
-default[:users:][:add] = {
+default[:users][:add] = {
     "foo" => {}
 }
-default[:users:][:add] = {
+default[:users][:add] = {
     "bar" => {}
 }
-default[:users:][:add] = {
+default[:users][:add] = {
     "one" => {}
 }
-default[:users:][:add] = {
+default[:users][:add] = {
     "baz" => {}
 }
