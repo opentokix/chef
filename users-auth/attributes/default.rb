@@ -35,22 +35,27 @@ default[:users][:default][:groups] = ["sudoers"]
 default[:users][:default][:ssh_keys] = ["ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZn/cjD81zXVGFkVABhAJyLmeB+1XjuAp9ueIoRzg60OCnahU4CqzVgd7t3+9paBFlFlcCE28QDTyO5rEAMUyMDVn09hVEgkbmh4ls3Yhn2F+zXZMGrQJ8QPkTbQQnxoZ6rTEzAYCJGhWaTkLKrTt0deRbdpe/1lIStaOtzq7XV0oM9P8lRT+p87xCTUQHNCg7zFfCWMEFE00pGyYbO0pO4ytLKVW5BFICEJQJyc8Yw4VbdmtNmRuvzv2CkhTenlgCy9dYaGe2SsEtpngjicdgJt/gyiENcJzBeWbtWAR8v+0slifeROEqWWog6zHEClwx2vH9j8wVFtp4SDct3Inb peter@polyhedra"]
 
 default[:users][:add] = {
-    "peter" => {}
-    "uid" => "2000"
+    "peter" => {
+      "uid" => "2000"
+    }
 }
 default[:users][:add] = {
-    "foo" => {}
-    "uid" => "2001"
+    "foo" => {
+      "uid" => "2001"
+    }
 }
 default[:users][:add] = {
-    "bar" => {}
-    "uid" => "2002"
+    "bar" => {
+      "uid" => "2002"
+    }
 }
 default[:users][:add] = {
-    "one" => {}
-    "uid" => "2003"
+    "one" => {
+      "uid" => "2003"
+    }
 }
 default[:users][:add] = {
-    "baz" => {}
-    "uid" => "2004"
+    "baz" => {
+      "uid" => "2004"
+    }
 }
