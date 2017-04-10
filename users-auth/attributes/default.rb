@@ -36,16 +36,21 @@ default[:users][:default][:ssh_keys] = ["ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD
 
 default[:users][:add] = {
     "peter" => {}
+    "uid" => "2000"
 }
 default[:users][:add] = {
     "foo" => {}
+    "uid" => "2001"
 }
 default[:users][:add] = {
     "bar" => {}
+    "uid" => "2002"
 }
 default[:users][:add] = {
     "one" => {}
+    "uid" => "2003"
 }
 default[:users][:add] = {
     "baz" => {}
+    "uid" => "2004"
 }
