@@ -15,5 +15,5 @@ supports 'ubuntu'
 supports 'RHEL'
 supports 'CentOs'
 
-depends "ssh-auth", "=> 0.0.0"
+depends "ssh-auth", "> 0.0.0"
  

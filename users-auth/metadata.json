@@ -11,7 +11,7 @@
     "CentOs": ">= 0.0.0"
   },
   "dependencies": {
-    "ssh-auth": "=> 0.0.0"
+    "ssh-auth": "> 0.0.0"
   },
   "recommendations": {
 
