@@ -14,7 +14,7 @@ end
 
 
 template "#{node[:ssh][:install_dir]}/sshd_config" do
-	source "sshd_config.erb"
+	source "sshd_config.rb"
 	owner node[:ssh][:user]
 	group node[:ssh][:group]
 	mode 00600
