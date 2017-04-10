@@ -1,7 +1,0 @@
-{
-    "id": "peter",
-    "comment": "Peter Eriksson",
-    "home": "/home/peter",
-    "groups": [ "sudoers", "adm" ]
-    "ssh_keys": [ "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZn/cjD81zXVGFkVABhAJyLmeB+1XjuAp9ueIoRzg60OCnahU4CqzVgd7t3+9paBFlFlcCE28QDTyO5rEAMUyMDVn09hVEgkbmh4ls3Yhn2F+zXZMGrQJ8QPkTbQQnxoZ6rTEzAYCJGhWaTkLKrTt0deRbdpe/1lIStaOtzq7XV0oM9P8lRT+p87xCTUQHNCg7zFfCWMEFE00pGyYbO0pO4ytLKVW5BFICEJQJyc8Yw4VbdmtNmRuvzv2CkhTenlgCy9dYaGe2SsEtpngjicdgJt/gyiENcJzBeWbtWAR8v+0slifeROEqWWog6zHEClwx2vH9j8wVFtp4SDct3Inb peter@polyhedra" ]
-}
