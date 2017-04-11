@@ -1,5 +1,5 @@
 user "Add a user" do 
-    home user_home
+    home "/home/peter"
     shell "/bin/bash"
     username "peter"
     manage_home true 
