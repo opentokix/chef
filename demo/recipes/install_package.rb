@@ -1,3 +1,3 @@
-package "Install Emacs" do 
-    package_name "emacs" 
+package "Install Base packages" do 
+    package_name [ "htop" ]
 end
